@@ -1,6 +1,5 @@
 package com.example.a53638138e.magicintento;
 
-import android.media.Image;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -12,9 +11,6 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-/**
- * A placeholder fragment containing a simple view.
- */
 public class MainActivityFragment extends Fragment {
 
     // Jugador 1
@@ -219,9 +215,6 @@ public class MainActivityFragment extends Fragment {
     // Menu
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
         // El id hace referencia al item que tenemos guardado en la carpeta menu (archivo menu_main.xml)
