@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a53638138e.magicintento.MainActivity">
+    <item
+        android:id="@+id/reiniciarPartida"
+        app:showAsAction="ifRoom"
+        android:title="Reiniciar"
+        android:icon="@drawable/ic_refresh"></item>
+</menu>
